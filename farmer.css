@@ -1,0 +1,124 @@
+.header{
+    color: rgb(1, 12, 21);
+    background-color: #f1f3ed;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 5px greenyellow;
+    box-shadow: 10px 10px 5px grey;
+    position:top;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(235, 17, 228);
+    position: fixed;
+}
+.topnavbar a{
+    float: right;
+    display: block;
+    color: #030011;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:rgb(244, 245, 238);
+    border:1px solid rgb(239, 238, 242);
+    
+}
+.topnavbar a:hover{
+        background-color: rgb(221, 233, 240);
+        color: rgb(50, 51, 48);
+}
+body{
+    background-color:rgb(236, 240, 241) ;
+    background-image: url("images/farmer1.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-origin: content-box;
+    /*background-image: linear-gradient(to right, red , yellow);*/
+}
+.container {
+    display: block;
+    position: absolute;
+    margin: 40px;
+    max-width: 300px;
+    padding: 30px;
+    background-color: white;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .btn {
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    background-color: white;
+    color: #030011;
+    border: 2px solid #4CAF50; 
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 65px;
+    height: 65px;
+    border-radius: 70%;
+  }  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    position: fixed;
+    
+  }
+  .nav-item{
+
+    float: right;
+  }
+  .carousel-item{
+    height: 30rem;
+    width: 100%;
+    background-color: #030011;
+    color: #ddd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 25;
+    box-shadow: #4CAF50;
+    border-radius: 0%;
+  }
+  .container{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+padding-bottom: 50px;
+  }
+
+  .gallery{
+      position: relative;
+      display:block;
+
+  }
+  .desc{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+.carousel-item active{
+width: 200%;
+height:300%;
+
+}
